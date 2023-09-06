@@ -1,0 +1,28 @@
+/* Navbar styles */
+nav {
+    background-color: #333; /* Background color for the navbar */
+    color: #fff; /* Text color for links */
+    padding: 10px 0; /* Add padding to the top and bottom of the navbar */
+}
+
+ul {
+    list-style-type: none; /* Remove default bullet points from the list */
+    margin: 0 0 0 0.25rem;
+    padding: 0;
+}
+
+li {
+    display: inline; /* Display list items horizontally */
+    margin-right: 20px; /* Add some space between list items */
+}
+
+a {
+    text-decoration: none; /* Remove underlines from links */
+    color: #fff; /* Text color for links */
+    font-weight: bold; /* Make the text bold */
+    transition: color 0.3s; /* Add a smooth color transition on hover */
+}
+
+a:hover {
+    color: #ff5733; /* Change text color on hover */
+}
